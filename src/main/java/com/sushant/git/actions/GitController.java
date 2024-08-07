@@ -10,6 +10,6 @@ public class GitController {
     @GetMapping("/welcome")
     public String welcome()
     {
-        return "welcome";
+        return "welcome again";
     }
 }
