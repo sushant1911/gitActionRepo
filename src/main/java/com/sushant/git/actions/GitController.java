@@ -11,6 +11,6 @@ public class GitController {
     @GetMapping("/welcome")
     public String welcome()
     {
-        return "welcome this is";
+        return "welcome to git hub action";
     }
 }
