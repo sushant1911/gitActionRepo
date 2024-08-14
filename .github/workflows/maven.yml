@@ -8,6 +8,10 @@
 
 name: Java github action
 
+permissions:
+  contents: read
+  security-events: write
+
 on:
   push:
     branches: [ "main" ]
